@@ -1,0 +1,10 @@
+@import "reset";
+@import "layout";
+
+.nav {
+  padding: 0;
+
+  .nav-item {
+    list-style: none;
+  }
+}
