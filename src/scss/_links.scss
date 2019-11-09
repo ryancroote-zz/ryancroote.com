@@ -1,0 +1,14 @@
+.links {
+
+  display: table;
+
+  .link-item {
+    display: table-cell;
+    padding-right: 5rem;
+  }
+  
+  .link-item:last-child {
+    padding-right: 0;
+  }
+
+}
