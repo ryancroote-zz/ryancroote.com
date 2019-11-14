@@ -27,5 +27,6 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "node-normalize-scss": "^8.0.1"
-  }
+  },
+  "devDependencies": {}
 }
