@@ -1,10 +1,11 @@
 .links {
 
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
 
   .link-item {
-    display: table-cell;
-    padding-right: 5rem;
+    margin-top: 5rem;
+    margin-right: 5rem;
   }
   
   .link-item:last-child {

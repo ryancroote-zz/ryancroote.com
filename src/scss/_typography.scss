@@ -6,12 +6,12 @@ body {
 }
 
 h1 {
-  font-size: 20.0rem;
+  font-size: 36.0rem;
   font-weight: 900;
 }
 
 h2 {
-  font-size: 16.0rem;
+  font-size: 24.0rem;
   font-weight: 600;
   margin-bottom: 10rem;
 }
@@ -29,4 +29,13 @@ hr {
   border: 2.0rem solid #333;
   border-bottom-width: 1.0rem;
   margin: 8.0rem 0;
+}
+
+.list {
+  padding-left: 20.0rem;
+
+  li {
+    list-style: square;
+  }
+
 }
