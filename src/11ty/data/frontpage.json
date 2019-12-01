@@ -1,0 +1,35 @@
+{
+  "about": [
+    "I build custom software solutions based on web technologies.",
+    "Primarily, work is done with Python (Django) and JavaScript/TypeScript (React.js, Redux, MobX).",
+    "I focus on improving processes with and without software."
+  ],
+  "worked_on": [
+    "Canvas-based T-Shirt designer implemented with paper.js",
+    "Inventory system with a Django backend and TypeScript/React/MobX frontend",
+    "E-commerce site that integrates with a legacy ERP system"
+  ],
+  "where_to_find_me": [
+    {
+      "class": "linkedin-btn",
+      "href": "https://www.linkedin.com/in/ryancroote/",
+      "name": "linkedin"
+    },
+    {
+      "class": "gitlab-btn",
+      "href": "https://gitlab.com/ryancroote",
+      "name": "gitlab"
+    },
+    {
+      "href": "https://github.com/ryancroote",
+      "name": "github"
+    }
+  ],
+  "current_toolbox": [
+    "Python (Django)",
+    "JavaScript/TypeScript (React, Redux, MobX)",
+    "CSS (SASS)",
+    "PostgreSQL",
+    "Docker"
+  ]
+}

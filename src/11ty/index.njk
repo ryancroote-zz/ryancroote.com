@@ -5,37 +5,36 @@ layout: base.njk
 <section>
   <h2>about</h2>
   <p>
-
+    {% for item in frontpage.about %}
+      {{ item }}
+    {% endfor %}
   </p>
 </section>
 
 <section>
   <h2>what i've worked on</h2>
   <ol class="list">
-    <li>e-commerce system interfacing with legacy ERP systems</li>
-    <li>Mobile app backend systems</li>
-    <li>React-based front-ends</li>
-    <li>Canvas-based T-Shirt Designer with paper.js</li>
+  {% for item in frontpage.worked_on %}
+  <li>{{ item }}</li>
+  {% endfor %}
   </ol>
 </section>
 
 <section>
-  <h2>links</h2>
+  <h2>where to find me</h2>
   <ol class="links">
-    <li class="link-item"><a class="linkedin-btn btn" href="https://www.linkedin.com/in/ryancroote/">linkedin</a></li>
-    <li class="link-item"><a class="gitlab-btn btn" href="https://gitlab.com/ryancroote">gitlab</a></li>
-    <li class="link-item"><a class="btn" href="https://github.com/ryancroote/">github</a></li>
+  {% for item in frontpage.where_to_find_me %}
+    <li class="link-item"><a target="_blank" class="{{item.class}} btn" href="{{item.href}}">{{item.name}}</a></li>
+  {% endfor %}
   </ol>
 </section>
 
 <section>
   <h2>toolbox</h2>
   <ol class="list">
-    <li>Python (Django)</li>
-    <li>JavaScript (React, Node, Redux, MobX)</li>
-    <li>CSS (SASS)</li>
-    <li>PostgreSQL</li>
-    <li>Docker</li>
+    {% for item in frontpage.current_toolbox %}
+      <li>{{ item }}</li>
+    {% endfor %}
   </ol>
 </section>
 

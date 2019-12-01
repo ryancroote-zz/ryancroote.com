@@ -14,7 +14,7 @@
 
     <div class="container">
       <header>
-        <h1 class="home"><a href="{{ '/' | url }}">ryan croote</a></h1>
+        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.name }}</a></h1>
       </header>
 
       <hr />
@@ -24,7 +24,11 @@
       </main>
 
       <hr />
-      <footer></footer>
+
+      <footer>
+        Built with <a target="_blank" href="https://www.11ty.io/">11ty</a>
+      </footer>
+
     </div>
   </body>
 </html>
