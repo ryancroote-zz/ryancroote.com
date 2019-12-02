@@ -1,0 +1,19 @@
+{
+  "experience": [
+    {
+      "title": "",
+      "employer": "",
+      "accomplishments": [
+        
+      ]
+    }
+  ],
+  "education": [],
+  "skills": {
+    "languages": ["Python", "JavaScript", "TypeScript", "PHP", "SQL"],
+    "frameworks": ["Django", "React.js"],
+    "libraries": ["jQuery", "Redux", "MobX"],
+    "databases": ["PostgreSQL", "Redis"],
+    "tools": ["git", "GitHub", "Docker"]
+  }
+}

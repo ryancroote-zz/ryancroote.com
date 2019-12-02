@@ -1,4 +1,5 @@
 module.exports = (config) => {
+
   return {
     dir                    : {
       input    : 'src/11ty',
@@ -9,8 +10,7 @@ module.exports = (config) => {
     },
     passthroughFileCopy    : true,
     templateFormats        : [
-      'njk',
-      'md'
+      'njk'
     ],
     htmlTemplateEngine     : 'njk',
     markdownTemplateEngine : 'njk'

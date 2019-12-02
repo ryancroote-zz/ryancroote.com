@@ -1,0 +1,40 @@
+---
+layout: base.njk
+---
+
+<section>
+  <h2>about</h2>
+  <p>
+    {% for item in frontpage.about %}
+      {{ item }}
+    {% endfor %}
+  </p>
+</section>
+
+<section>
+  <h2>what i've worked on</h2>
+  <ol class="list">
+  {% for item in frontpage.worked_on %}
+  <li>{{ item }}</li>
+  {% endfor %}
+  </ol>
+</section>
+
+<section>
+  <h2>where to find me</h2>
+  <ol class="links">
+  {% for item in frontpage.where_to_find_me %}
+    <li class="link-item"><a target="_blank" class="{{item.class}} btn" href="{{item.href}}">{{item.name}}</a></li>
+  {% endfor %}
+  </ol>
+</section>
+
+<section>
+  <h2>toolbox</h2>
+  <ol class="list">
+    {% for item in frontpage.current_toolbox %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ol>
+</section>
+

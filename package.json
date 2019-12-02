@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp dev & npm run serve",
+    "serve": "npx eleventy --serve",
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "scss": "gulp css",
@@ -25,5 +27,6 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "node-normalize-scss": "^8.0.1"
-  }
+  },
+  "devDependencies": {}
 }

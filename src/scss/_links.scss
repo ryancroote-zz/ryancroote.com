@@ -1,0 +1,15 @@
+.links {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  .link-item {
+    margin-top: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .link-item:last-child {
+    padding-right: 0;
+  }
+
+}

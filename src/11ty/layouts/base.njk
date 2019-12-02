@@ -12,20 +12,23 @@
   </head>
   <body>
 
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">Ryan Croote</a></h1>
-      <ul class="nav">
-        <li class="nav-item{% if '/resume/' == page.url %} nav-item-active{% endif %}"><a class="button" href="{{ '/resume/' | url }}">Resume</a></li>
-      </ul>
-    </header>
+    <div class="container">
+      <header>
+        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.name }}</a></h1>
+      </header>
 
-    <hr />
+      <hr />
 
-    <main>
-      {{ content|safe }}
-    </main>
+      <main>
+        {{ content|safe }}
+      </main>
 
-    <hr />
-    <footer></footer>
+      <hr />
+
+      <footer>
+        Built with <a target="_blank" href="https://www.11ty.io/">11ty</a>
+      </footer>
+
+    </div>
   </body>
 </html>
