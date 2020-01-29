@@ -16,11 +16,6 @@
       "name": "linkedin"
     },
     {
-      "class": "gitlab-btn",
-      "href": "https://gitlab.com/ryancroote",
-      "name": "gitlab"
-    },
-    {
       "href": "https://github.com/ryancroote",
       "name": "github"
     }
