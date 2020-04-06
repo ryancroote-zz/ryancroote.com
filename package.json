@@ -9,7 +9,8 @@
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "scss": "gulp css",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "preinstall": "npx npm-force-resolutions"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,10 @@
     "gulp-sass": "^4.0.2",
     "node-normalize-scss": "^8.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "minimist": "^1.2.5"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
+  }
 }
